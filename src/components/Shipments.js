@@ -16,7 +16,6 @@ const Shipments = () => {
       const handleSubmit = async (values) => {
         try {
           console.log("Form Values:", values);
-          // const response = await axios.post("/api/login", values);
         } catch (error) {
           console.error("API Error:", error);
         }

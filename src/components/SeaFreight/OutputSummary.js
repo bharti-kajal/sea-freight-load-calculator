@@ -22,11 +22,11 @@ export default function OutputSummary({ results }) {
       <div className="mb-3 fs-5">
         <strong>Weight Limits:</strong> {results.weightLimit}
       </div>
-      <div className="text-center mt-4">
+      {/* <div className="text-center mt-4">
         <Link className="btn btn-success w-40 px-5 py-2 rounded-pill" to="/login">
           Login
         </Link>
-      </div>
+      </div> */}
     </Card>
   );
 }

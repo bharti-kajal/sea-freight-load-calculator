@@ -6,7 +6,7 @@ export default function ContainerSuggestion({ results, setShowSummary }) {
     <Card className="p-4 shadow-sm border-0 result-card mt-4 mt-md-0">
       <h4 className="fw-bold mb-4">Container Recommendation</h4>
 
-      {/* <img src="../container.PNG" className="mb-2 mx-auto" width={300} alt="Container" /> */}
+      <img src="../container.PNG" className="mb-2 mx-auto" width={300} alt="Container" />
 
       <div className="mb-3 fs-5">
         <strong>Suggested Container:</strong> {results.suggestContainer || "-"}
