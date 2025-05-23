@@ -1,5 +1,5 @@
 import axios from "axios";
-const BASE_URL = "http://localhost:3200/api";
+const BASE_URL = "https://sea-freight-calculator-backend-1.onrender.com/api";
 
 const EndPoints = {
   list: async (values, param) => {
