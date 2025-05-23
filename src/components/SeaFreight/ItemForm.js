@@ -5,8 +5,6 @@ import * as Yup from "yup";
 import EndPoints from "../../EndPoints";
 
 export default function ItemForm({ setResults, setShowSummary, setInputData, inputData }) {
-  const [hasCalculated, setHasCalculated] = React.useState(false);
-
   const initialValues = Object.keys(inputData).length
     ? inputData
     : {
@@ -46,7 +44,6 @@ export default function ItemForm({ setResults, setShowSummary, setInputData, inp
         stacking,
         weightLimit,
       });
-      setHasCalculated(true);
       setShowSummary(false); 
     } catch (error) {
       console.error("API Error:", error);

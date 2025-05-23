@@ -22,10 +22,6 @@ export default function SeaFreightPage() {
     setShowSummary(false);
   };
 
-  const handleProceedToOutput = () => {
-    setShowSummary(true);
-  };
-
   return (
     <Container className="my-5">
       <h2 className="mb-4 fw-bold text-center">Sea Freight Load Calculator</h2>
