@@ -17,11 +17,9 @@ export default function SeaFreightPage() {
   const [inputData, setInputData] = useState({});
   const [showSummary, setShowSummary] = useState(false);
   
-  const [calculationDone, setCalculationDone] = useState(false);
 
   const handleBack = () => {
     setShowSummary(false);
-    setCalculationDone(false); 
   };
 
   const handleProceedToOutput = () => {
@@ -39,7 +37,6 @@ export default function SeaFreightPage() {
               <ItemForm
                 setResults={(res) => {
                   setResults(res);
-                  setCalculationDone(true); 
                 }}
                 setShowSummary={setShowSummary}
                 setInputData={setInputData}
